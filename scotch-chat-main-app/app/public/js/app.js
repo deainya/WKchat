@@ -2,7 +2,7 @@
 //Load angular
 var app = angular.module('scotch-chat', ['ngMaterial', 'ngAnimate', 'ngMdIcons', 'btford.socket-io'])
     //Set our server url
-var serverBaseUrl = 'http://localhost:2015';
+var serverBaseUrl = 'http://localhost:3005';
 //Services to interact with nodewebkit GUI and Window
 app.factory('GUI', function () {
     //Return nw.gui
@@ -23,7 +23,7 @@ app.factory('socket', function (socketFactory) {
     return socket;
 });
 
-//Our Contrller 
+//Our Contrller
 app.controller('MainCtrl', function ($scope, Window, GUI, $mdDialog, socket, $http) {
     //Global Scope
     $scope.messages = [];
@@ -119,10 +119,10 @@ app.controller('MainCtrl', function ($scope, Window, GUI, $mdDialog, socket, $ht
             body: data.content
         };
 
-        var notification = new Notification("Message from: "+data.username, options);        
+        var notification = new Notification("Message from: "+data.username, options);
 
         notification.onshow = function () {
-            
+
             // auto close after 1 second
             setTimeout(function () {
                 notification.close();

@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="../public/libs/MaterialDesign/css/materialdesignicons.css">
     <script src="libs/angular/angular.js"></script>
     <script type="text/javascript" src="libs/jquery/dist/jquery.min.js"></script>
-    <script src="http://localhost:2015/socket.io/socket.io.js"></script>
+    <script src="http://localhost:3005/socket.io/socket.io.js"></script>
     <script type="text/javascript" src="libs/angular-animate/angular-animate.js"></script>
     <script type="text/javascript" src="libs/angular-aria/angular-aria.js"></script>
     <script type="text/javascript" src="libs/angular-material/angular-material.js"></script>
@@ -39,7 +39,7 @@
         <section>
             <md-list>
                 <md-subheader class="md-primary header">Room: {{room}} <span align="right">Userame: {{username}} </span> </md-subheader>
-                
+
                 <md-whiteframe ng-repeat="m in messages" class="md-whiteframe-z2 message" layout layout-align="center center">
                     <md-list-item class="md-3-line">
                         <img ng-src="img/user.png" class="md-avatar" alt="User" />

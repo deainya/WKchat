@@ -1,7 +1,7 @@
 'use strict';
 
 var app = angular.module('scotch-chat', ['ngMaterial', 'ngAnimate', 'ngMdIcons', 'btford.socket-io'])
-var serverBaseUrl = 'http://localhost:2015';
+var serverBaseUrl = 'http://localhost:3005';
 app.factory('socket', function (socketFactory) {
     var myIoSocket = io.connect(serverBaseUrl);
 

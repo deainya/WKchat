@@ -18,11 +18,11 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/', routes.index);
 
-app.set('port', process.env.PORT || 4000);
+app.set('port', process.env.PORT || 3001);
 
 var server = app.listen(app.get('port'), function() {
 	// log a message to console!
-    console.error('Port at 4k');
+    console.error('Port at 3k1');
 });
 
 module.exports = app;

@@ -9,7 +9,7 @@ var io = require('socket.io')(server);
 app.use(express.static(__dirname + '/public'));
 
 //Connect to mongo DB database
-mongoose.connect("mongodb://127.0.0.1:27017/scotch-chat");
+mongoose.connect("mongodb://user:pass@localhost:27017/partnergo-dev"); //"mongodb://127.0.0.1:27017/scotch-chat"
 
 //Create a schema for chat
 var ChatSchema = mongoose.Schema({
@@ -143,5 +143,5 @@ io.on('connection', function(socket) {
 });
 /*||||||||||||||||||||||||||||||||||||||END SOCKETS||||||||||||||||||||||||||||||||||||||*/
 
-server.listen(2015);
-console.log('It\'s going down in 2015');
+server.listen(3005);
+console.log('It\'s going down in 3005');
