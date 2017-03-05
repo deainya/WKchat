@@ -1,0 +1,94 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "angular-material-icons@^0.5.0",
+        "scope": null,
+        "escapedName": "angular-material-icons",
+        "name": "angular-material-icons",
+        "rawSpec": "^0.5.0",
+        "spec": ">=0.5.0 <0.6.0",
+        "type": "range"
+      },
+      "/home/bitnami/projects/WKchat/scotch-chat-main-app"
+    ]
+  ],
+  "_from": "angular-material-icons@>=0.5.0 <0.6.0",
+  "_id": "angular-material-icons@0.5.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/angular-material-icons",
+  "_npmUser": {
+    "name": "urmilparikh",
+    "email": "urmil@klarsys.com"
+  },
+  "_npmVersion": "1.4.28",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "angular-material-icons@^0.5.0",
+    "scope": null,
+    "escapedName": "angular-material-icons",
+    "name": "angular-material-icons",
+    "rawSpec": "^0.5.0",
+    "spec": ">=0.5.0 <0.6.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/angular-material-icons/-/angular-material-icons-0.5.0.tgz",
+  "_shasum": "5781497ac665169356348bf3ded1573a5c5cc76a",
+  "_shrinkwrap": null,
+  "_spec": "angular-material-icons@^0.5.0",
+  "_where": "/home/bitnami/projects/WKchat/scotch-chat-main-app",
+  "author": {
+    "name": "Urmil Parikh"
+  },
+  "bugs": {
+    "url": "https://github.com/klarsys/angular-material-icons/issues"
+  },
+  "dependencies": {
+    "angular": ">1.3.x"
+  },
+  "description": "AngularJS directive to use Material Design icons with custom fill color and size.",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "5781497ac665169356348bf3ded1573a5c5cc76a",
+    "tarball": "https://registry.npmjs.org/angular-material-icons/-/angular-material-icons-0.5.0.tgz"
+  },
+  "gitHead": "fb5f949b42f6bbd835d8988bab9f68755fd86039",
+  "homepage": "https://github.com/klarsys/angular-material-icons",
+  "keywords": [
+    "angular",
+    "material",
+    "design",
+    "icon",
+    "fill",
+    "size",
+    "color",
+    "white",
+    "morph",
+    "svg",
+    "custom"
+  ],
+  "license": "MIT",
+  "main": "angular-material-icons.js",
+  "maintainers": [
+    {
+      "name": "urmilparikh",
+      "email": "urmil@klarsys.com"
+    }
+  ],
+  "name": "angular-material-icons",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/klarsys/angular-material-icons.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.5.0"
+}
